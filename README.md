@@ -9,3 +9,16 @@ The goal of this project is to predict loan status, whether the borrower will pa
 ## Data Source:
 
 https://www.kaggle.com/wordsforthewise/lending-club
+
+## Exploratory Data Analysis
+
+By grouping the loan status and plotting some related features, I had a further insights on the dataset.
+
+## Feature Engineering
+
+The dataset includes 152 features. In the data cleaning step, I reduced the features to 92, and I used Boruta package to select 41 important features.
+
+## Modelling
+
+The models I tried for comparision are Random Forest, Logistic Regression, KNN, XGboost. XGboost gave me the highest accuracy rate, which is 99.88%. I chose this model to predict 2015 loan status, which gave me 99.80% accuracy rate. This shows this model is very reliable.
+
