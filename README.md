@@ -22,3 +22,6 @@ The dataset includes 152 features. In the data cleaning step, I reduced the feat
 
 The models I tried for comparision are Random Forest, Logistic Regression, KNN, XGboost. XGboost gave me the highest accuracy rate, which is 99.88%. I chose this model to predict 2015 loan status, which gave me 99.80% accuracy rate. This shows this model is very reliable.
 
+## Conclusion
+
+From the confusion matrix result, I gave suggestions about model selection if investors want to balance risk and return when they choose the borrowers. 
