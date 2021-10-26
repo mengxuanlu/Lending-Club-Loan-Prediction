@@ -16,11 +16,11 @@ By grouping the loan status and plotting some related features, I had a further 
 
 ## Feature Engineering
 
-The dataset includes 152 features. In the data cleaning step, I reduced the features to 92, and I used Boruta package to select 41 important features.
+The dataset includes 152 features. In the data cleaning step, I reduced the features to 41 based on my personal knowledge.
 
 ## Modelling
 
-The models I tried for comparision are Random Forest, Logistic Regression, KNN, XGboost.
+The models I tried for comparision are Random Forest, Logistic Regression, KNN, XGboost. And I ran the confusion matrix after each model to compare the model accuracy. In the end, I selected the XGboost as my best model to fit in the 2015 dataset to predict.  
 
 ## Conclusion
 
